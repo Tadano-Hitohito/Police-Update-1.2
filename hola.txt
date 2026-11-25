@@ -1,0 +1,5 @@
+todo lo que se escriba en el sistema se automaticamente se ponen en mayusculas
+aplicar validaciones que solo se acepten letran en los apartados de nombre y asi
+en los apartados de numero solo aceptar numero
+la parte de cedula se debe autoponer un V- al momento de escribir la cedula
+el rif automaticamente filtra la cedula los numeros con un - al final donde ira el numero que pondra el usuario del rif correspondiente

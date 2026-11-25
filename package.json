@@ -1,0 +1,35 @@
+{
+  "name": "express-profesional",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "db:setup": "node src/config/Database/Insertion.js",
+    "seed": "node src/seeds/userSeed.js",
+    "db:sqlite": "node src/config/Database/sqliteSetup.js",
+    "db:geo": "node src/config/Database/geographySetup.js",
+    "db:sqlite:add": "node src/config/Database/sqliteExample.js",
+    "db:sqlite:check": "node src/config/Database/sqliteCheck.js",
+    "db:seed": "node src/config/Database/sqliteSeed.js",
+    "db:seed:complete": "node src/config/Database/sqliteSeedComplete.js",
+    "db:seed:test-official": "node src/config/Database/sqliteSeedCompleteOfficial.js",
+    "db:seed:six-officials": "node src/config/Database/sqliteSeedSixOfficials.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.3",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "express-session": "^1.18.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "multer": "^2.5.0",
+    "mysql2": "^3.14.4",
+    "sequelize": "^6.37.7",
+    "sqlite3": "^6.0.1"
+  }
+}
